@@ -1,0 +1,5 @@
+Pytorch_logo.png https://commons.wikimedia.org/wiki/File:Pytorch_logo.png
+
+Keras_logo.svg https://commons.wikimedia.org/wiki/File:Keras_logo.svg
+
+Scikit_learn.svg https://commons.wikimedia.org/wiki/File:Scikit_learn_logo_small.svg
