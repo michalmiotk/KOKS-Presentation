@@ -5,22 +5,22 @@ Prezentacja działań koła medical.ml
 
 ## Treść
 
-1. Wstęp (nazwa koła, etc)
-2. Czym się zajmujemy
-3. Projekty
-    1. BZB 
-    2. Wątroba
-    3. Dziki
+1. Wstęp (nazwa koła, etc) - Cyprian
+2. Czym się zajmujemy - Ania
+3. Projekty - Piotr
+    1. BZB - Piotr
+    2. Wątroba - Bartek R. 
+    3. Dziki - Cyprian
 
-4. Konkursy Datasciece 
-    1. Miccai
-    2. Zderzacz cząstek
-    3. Lodowce Statoil
-    4. BankItUp
+4. Konkursy Datasciece - Piotr 
+    1. Miccai Bartek W.
+    2. Zderzacz cząstek - Cyprian
+    3. Lodowce Statoil - Cyprian
+    4. BankItUp - Cyprian
 
-5. Wyjazdy na konferencje
-6. Strategiczna współpraca z Nvidią
-7. Rekrutacja
+5. Wyjazdy na konferencje - Bartek W. 
+6. Strategiczna współpraca z Nvidią - Bartek W. 
+7. Rekrutacja - Ania
 
 
 
