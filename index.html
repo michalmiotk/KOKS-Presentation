@@ -1,53 +1,116 @@
 <!doctype html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <meta name="author" content="Kemal Erdem">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="author" content="medical.ml">
 
-  <title>WRM Temporal Network</title>
+    <title>KOKS medical.ml</title>
 
-  <link rel="stylesheet" href="dist/reset.css">
-  <link rel="stylesheet" href="dist/reveal.css">
-  <link rel="stylesheet" href="dist/theme/black.css" id="theme">
+    <link rel="stylesheet" href="dist/reset.css">
+    <link rel="stylesheet" href="dist/reveal.css">
+    <link rel="stylesheet" href="dist/theme/moon.css" id="theme">
 
-  <!-- Theme used for syntax highlighting of code -->
-  <link rel="stylesheet" href="css/highlight/isbl-editor-light.css">
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="css/highlight/isbl-editor-light.css">
 </head>
 <body>
 <div class="reveal">
-  <div class="slides">
-    <section>
-      <h2>Presentation</h2>
-      <small>Authors...</small>
-    </section>
-    <section>
-      <h2>Slide 1</h2>
-      <p>
-        ABC
-        $$
-        a_b
-        $$
-      </p>
-      <pre><code data-trim data-noescape>
-(def lazy-fib
-  (concat
-   [0 1]
-   ((fn rfib [a b]
-        (lazy-cons (+ a b) (rfib b (+ a b)))) 0 1)))
-  </code></pre>
-    </section>
-    <section>
-      <h2>Thanks</h2>
-      <blockquote>"There's no such thing as a stupid question!"</blockquote>
-      <p>
-        <small>Authors</small><br/>
-        <small><a href="">Links</a></small><br/>
-      </p>
-    </section>
-  </div>
-</div>
+    <div class="slides">
+        <section>
+            <h2>Medical ML</h2>
+        </section>
 
+        <section>
+            <section>
+                <h2>Projekty</h2>
+                <p>Slides can be nested inside of each other.</p>
+                <p>Use the <em>Space</em> key to navigate through all slides.</p>
+                <br>
+                <a href="#" class="navigate-down">
+                    <img class="r-frame" style="background: rgba(255,255,255,0.1);" width="178" height="238"
+                         data-src="https://static.slid.es/reveal/arrow.png" alt="Down arrow">
+                </a>
+            </section>
+            <section>
+                <h2>Współpraca z BZBUAS</h2>
+                <p>....</p>
+            </section>
+
+            <section>
+                <h2>Wątroba</h2>
+                <p>....</p>
+            </section>
+
+
+            <section>
+                <h2>Dziki</h2>
+                <p>That's it, time to go back up.</p>
+                <br>
+                <a href="#/2">
+                    <img class="r-frame" style="background: rgba(255,255,255,0.1); transform: rotate(180deg);"
+                         width="178" height="238" data-src="https://static.slid.es/reveal/arrow.png" alt="Up arrow">
+                </a>
+            </section>
+        </section>
+
+
+        <section>
+            <section>
+                <h2>Konkursy Data Science</h2>
+                <p>Slides can be nested inside of each other.</p>
+                <p>Use the <em>Space</em> key to navigate through all slides.</p>
+                <br>
+                <a href="#" class="navigate-down">
+                    <img class="r-frame" style="background: rgba(255,255,255,0.1);" width="178" height="238"
+                         data-src="https://static.slid.es/reveal/arrow.png" alt="Down arrow">
+                </a>
+            </section>
+            <section>
+                <h2>Współpraca z BZBUAS</h2>
+                <p>....</p>
+            </section>
+
+            <section>
+                <h2>Miccai</h2>
+                <p>....</p>
+            </section>
+
+
+            <section>
+                <h2>Zderzacz cząstek</h2>
+                <p>....</p>
+            </section>
+
+            <section>
+                <h2>BankItUp</h2>
+                <p>That's it, time to go back up.</p>
+                <br>
+                <a href="#/2">
+                    <img class="r-frame" style="background: rgba(255,255,255,0.1); transform: rotate(180deg);"
+                         width="178" height="238" data-src="https://static.slid.es/reveal/arrow.png" alt="Up arrow">
+                </a>
+            </section>
+        </section>
+
+        <section>
+            <h2>Wyjazdy na konferencje</h2>
+        </section>
+
+        <section>
+            <h2>Strategiczna współpraca z Nvidią</h2>
+        </section>
+
+        <section>
+            <h2>Rekrutacja</h2>
+        </section>
+
+
+        <section>
+            <h2>Dziękujemy</h2>
+        </section>
+    </div>
+</div>
 
 
 <script src="dist/reveal.js"></script>
@@ -56,37 +119,37 @@
 <script src="plugin/highlight/highlight.js"></script>
 <script src="plugin/math/math.js"></script>
 <script>
-  // More info about config & dependencies:
-  // - https://github.com/hakimel/reveal.js#configuration
-  // - https://github.com/hakimel/reveal.js#dependencies
-  Reveal.initialize({
-    hash: true,
-    controls: true,
-    progress: true,
-    slideNumber: false,
-    overview: true,
-    center: true,
-    navigationMode: 'default',
-    fragmentInURL: false,
-    embedded: false,
-    preloadIframes: null,
-    autoSlide: 0,
-    autoSlideStoppable: true,
-    defaultTiming: 120,
-    mouseWheel: false,
-    previewLinks: false,
-    transition: 'slide', // none/fade/slide/convex/concave/zoom
-    transitionSpeed: 'default', // default/fast/slow
-    backgroundTransition: 'fade', // none/fade/slide/convex/concave/zoom
-    display: 'block',
-    math: {
-      mathjax: 'plugin/math/MathJax.js',
-      config: 'TeX-AMS_HTML-full', // See http://docs.mathjax.org/en/latest/config-files.html
-      // pass other options into `MathJax.Hub.Config()`
-      TeX: { Macros: { RR: "{\\bf R}" } }
-    },
-    plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath ]
-  });
+    // More info about config & dependencies:
+    // - https://github.com/hakimel/reveal.js#configuration
+    // - https://github.com/hakimel/reveal.js#dependencies
+    Reveal.initialize({
+        hash: true,
+        controls: true,
+        progress: true,
+        slideNumber: true,
+        overview: true,
+        center: true,
+        navigationMode: 'default',
+        fragmentInURL: false,
+        embedded: false,
+        preloadIframes: null,
+        autoSlide: 0,
+        autoSlideStoppable: true,
+        defaultTiming: 120,
+        mouseWheel: false,
+        previewLinks: false,
+        transition: 'slide', // none/fade/slide/convex/concave/zoom
+        transitionSpeed: 'default', // default/fast/slow
+        backgroundTransition: 'fade', // none/fade/slide/convex/concave/zoom
+        display: 'block',
+        math: {
+            mathjax: 'plugin/math/MathJax.js',
+            config: 'TeX-AMS_HTML-full', // See http://docs.mathjax.org/en/latest/config-files.html
+            // pass other options into `MathJax.Hub.Config()`
+            TeX: {Macros: {RR: "{\\bf R}"}}
+        },
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealMath]
+    });
 </script>
 </body>
 </html>
