@@ -1,0 +1,1 @@
+detectron2_logo.png https://medium.com/analytics-vidhya/detectron2-by-facebook-ai-research-is-here-b666987ad8b8
