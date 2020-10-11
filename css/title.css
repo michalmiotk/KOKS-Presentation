@@ -1,0 +1,11 @@
+.slide-title{
+    display: flex;
+    justify-content:center;
+    align-items: baseline;
+}
+
+.icon-title{
+    height: 80px;
+    filter: invert(0);
+    margin-left: 10px!important;
+}
