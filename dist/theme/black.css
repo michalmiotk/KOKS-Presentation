@@ -11,7 +11,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
  * GLOBAL STYLES
  *********************************************/
 :root {
-  --background-color: #191919;
+  --background-color: linear-gradient(180deg, rgba(38,143,174,1) 0%, rgba(32,120,146,1) 50%, rgba(20,76,89,1) 100%);
   --main-font: Source Sans Pro, Helvetica, sans-serif;
   --main-font-size: 42px;
   --main-color: #fff;
@@ -40,6 +40,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
   background-color: #191919; }
 
 .reveal {
+  background: linear-gradient(180deg, rgba(38,143,174,1) 0%, rgba(32,120,146,1) 50%, rgba(20,76,89,1) 100%  );
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-size: 42px;
   font-weight: normal;
